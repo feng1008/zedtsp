@@ -1,0 +1,8 @@
+Brute Force Solution of Travelling salesman problem.
+
+The program takes the input the 'n' number of nodes. It then constructs a hamiltonian graph of n nodes starting from node 0 and assigns random distance between the nodes.
+It then calculates all the possbile tours and the cost associated with each tour. At the same time records the minimum cost and tour.
+The time complexity of this approach is very high: O(n!)
+The time that program takes to execute increases factorially as the n increases. For n>15 it takes very long time. Hence, other approaches have to devised to computer shortest path for n>20.
+
+
