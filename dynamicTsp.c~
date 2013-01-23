@@ -89,10 +89,11 @@ void main()
 
   for(i=1;i<n;i++)
   {
-    init.myArray[i-1]=i;
-  }
- 
+    init.myArray[0]=1;
+    init.myArray[1]=2;
+    init.myArray[2]=3;
+   }
   int result;
-  result = optimal(0,init,n-1);
+  result = optimal(0,init,3);
   printf("\n The optimal route cost is %d \n",result); 
 } 
